@@ -1,0 +1,13 @@
+<main className="max-w-7xl mx-auto px-6 sm:px-8 py-20">
+        <h1 className="text-4xl font-bold text-primary mb-12 text-center">Blog</h1>
+        {!selectedArticle ? (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+=======
+      <Navbar />
+      <div className="text-center text-primary font-semibold mt-4 mb-8">
+        Learn more from the articles below
+      </div>
+      <main className="max-w-full mx-auto px-4 sm:px-6 py-20">
+        <h1 className="text-4xl font-bold text-primary mb-12 text-center">Blog</h1>
+        {!selectedArticle ? (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
